@@ -216,44 +216,50 @@ nav .language_section:hover {
     margin-right: 200px;
     margin-top: 40px;
 }
+
 /* quote */
 
 .quote {
     height: 50px;
     font-size: 24px;
     text-align: center;
-    font-weight:700 ;
+    font-weight: 700;
     margin: 20px;
 }
 
 /* ai section */
 
-.features{
-    height:700px;
+.features {
+    height: 700px;
     background-color: rgba(29, 28, 28, 0.692);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.top{
+
+.top {
     text-align: center;
     gap: 10px;
     padding: 40px 0px 0px 0px;
 }
-.top p{
+
+.top p {
     font-size: 28px;
-    color:white ;
+    color: white;
 }
-.top .first_line span{
+
+.top .first_line span {
     color: yellow;
     font-size: 35px;
     font-weight: bolder;
 }
-.top .second_line span{
+
+.top .second_line span {
     font-weight: bolder;
 }
-.bottom{
+
+.bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +269,7 @@ nav .language_section:hover {
     font-size: 16px;
 }
 
-.bottom .right{
+.bottom .right {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,34 +277,73 @@ nav .language_section:hover {
     flex-direction: column;
     width: 500px;
 }
-.bottom .container{
+
+.bottom .container {
 
     display: flex;
     flex-direction: row;
     padding: 15px;
 }
-.bottom .heading{
+
+.bottom .heading {
     color: yellow;
-    font-size:25px;
-    font-weight:600;
+    font-size: 25px;
+    font-weight: 600;
 }
-.bottom .left img{
+
+.bottom .left img {
     height: 500px;
 }
-.bottom .icons img{
+
+.bottom .icons img {
     height: 55px;
 }
 
-
-.buttons button{
+.buttons button {
     font-size: 20px;
     border: none;
-    background-color:#f9db0a;
+    background-color: #f9db0a;
     height: 35px;
     width: 160px;
     border-radius: 5px;
     margin: 12px;
 }
+
+
+/* device_support section */
+
+.devices_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    background-color: rgb(242, 244, 247);
+}
+
+.box {
+    display: flex;
+    margin-top: 40px;
+}
+
+.icons_text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left:10px ;    
+}
+
+.icons_text p{
+    font-size: 14px;
+}
+
+.icons_text img {
+    height: 40px;
+    padding-left: 15px;
+}
+
+
+
 /* footer */
 
 /* hover */
@@ -307,9 +352,10 @@ button:hover {
     cursor: pointer;
 }
 
-a{  
+a {
     color: white;
 }
-a:visited{
+
+a:visited {
     color: white;
 }

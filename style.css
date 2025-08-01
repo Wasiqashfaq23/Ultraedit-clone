@@ -60,6 +60,8 @@ body {
     align-items: center;
     flex-direction: row;
     gap: 20px;
+    text-align: center;
+
 }
 
 .time_box_section .value {
@@ -348,6 +350,7 @@ nav .language_section:hover {
 /* third section */
 
 .third_section {
+    font-size: 18px;
     height: 800px;
     background-color: black;
     width: 100vw;
@@ -360,7 +363,7 @@ nav .language_section:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0 80px;  
+    padding: 0 80px;
 }
 
 .box1 {
@@ -371,7 +374,7 @@ nav .language_section:hover {
     display: flex;
     flex-direction: row;
     padding: 40px;
-    width:800px;
+    width: 800px;
 }
 
 .box1 .left_section {
@@ -387,23 +390,24 @@ nav .language_section:hover {
     height: 40px;
     font-size: large;
     font-weight: 600;
-    margin-top: 20px;   
-    background-color: rgb(67, 154, 184); 
+    margin-top: 20px;
+    background-color: rgb(67, 154, 184);
     border: none;
     border-radius: 6px;
 }
 
-.right_section{
+.right_section {
     display: flex;
     align-items: end;
     margin-bottom: 100px;
 }
-.right_section img{
+
+.right_section img {
     height: 350px;
 }
 
 
-.box2{
+.box2 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -415,6 +419,81 @@ nav .language_section:hover {
     width: 350px;
     border-radius: 20px;
 }
+
+
+
+
+/* all features */
+
+
+
+.featuring{
+    text-align: center;
+    margin-top:200px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.feature {
+    display: grid;
+    grid-template-areas:
+        "one two three"
+        "four five six"
+        "seven eight nine";
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    flex-direction: column;
+    gap: 15px;
+    padding: 65px;
+    text-align: left;
+}
+
+.section h3{
+    align-self: self-start;
+}
+.section img {
+    height: 75px;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
 /* footer */
 
 /* hover */
@@ -430,4 +509,3 @@ a {
 a:visited {
     color: white;
 }
-

@@ -216,13 +216,100 @@ nav .language_section:hover {
     margin-right: 200px;
     margin-top: 40px;
 }
+/* quote */
+
+.quote {
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    font-weight:700 ;
+    margin: 20px;
+}
 
 /* ai section */
 
+.features{
+    height:700px;
+    background-color: rgba(29, 28, 28, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top{
+    text-align: center;
+    gap: 10px;
+    padding: 40px 0px 0px 0px;
+}
+.top p{
+    font-size: 28px;
+    color:white ;
+}
+.top .first_line span{
+    color: yellow;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.top .second_line span{
+    font-weight: bolder;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    margin: 60px 0px;
+    font-size: 16px;
+}
+
+.bottom .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 500px;
+}
+.bottom .container{
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.bottom .heading{
+    color: yellow;
+    font-size:25px;
+    font-weight:600;
+}
+.bottom .left img{
+    height: 500px;
+}
+.bottom .icons img{
+    height: 55px;
+}
+
+
+.buttons button{
+    font-size: 20px;
+    border: none;
+    background-color:#f9db0a;
+    height: 35px;
+    width: 160px;
+    border-radius: 5px;
+    margin: 12px;
+}
 /* footer */
 
 /* hover */
 
 button:hover {
     cursor: pointer;
+}
+
+a{  
+    color: white;
+}
+a:visited{
+    color: white;
 }
